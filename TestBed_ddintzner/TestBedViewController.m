@@ -8,7 +8,11 @@
 
 #import "TestBedViewController.h"
 
-@interface TestBedViewController ()
+@interface TestBedViewController (){
+    
+    IBOutlet UITextView * textView;
+}
+
 
 @end
 
